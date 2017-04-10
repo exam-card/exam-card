@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Парсер экзаменационных билетов</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel='icon' href='favicon.ico' type='image/x-icon'/>
+	<!-- Bootstarap CDN, css-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- end -->
+	<!-- Another CSS -->
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	<div class="container">
+		<section class="page-header">
+			<h1>Парсер экзаменационных билетов <br> для Microsoft Word</h1>
+		</section>
+		<section class="text-main">
+			<h3>Проблема</h3>
+			<p>
+				Создание экзаменационных билетов занимает много времени преподавателей. <br>
+				Копировать-вставить и самостоятельно располагать вопросы набивает оскомину.
+			</p>		
+			<h3>Решение</h3>
+			<p>
+				Мы решили автоматизировать процесс создания билетов с использованием технологий <br>
+				встроенных в офисный пакет корпорации Microsoft <br>
+				и других открытых по лицензии <a id="popover" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" data-content="GNU Lesser General Public License (LGPL) - это лицензия свободного программного обеспечения за авторством Free Software Foundation (FSF).">GNU LGPL</a> технологиях.
+			</p>
+			<h3>Используемые технологии</h3>
+			<ul>
+				<li><a id="popover1" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" data-content="C++ — компилируемый, статически типизированный язык программирования общего назначения.">С++</a> версии 17, стандартная библиотека классов и функций</li>
+				<li>Кроссплатформенный фреймворк <a id="popover2" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" data-content="Кроссплатформенный фреймворк, содержащий элементы пользовательского интерфейса.">Qt</a></li>
+				<li>Microsoft <a id="popover3" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" data-content="технология связывания и внедрения объектов в другие документы и объекты, разработанная корпорацией Майкрософт.">ActiveX</a></li>
+			</ul>
+			<h3>Скриншоты</h3>
+			<img src="pic/sc1.jpg" alt="" class="img-responsive" style="width: 300px; height: 320px;">
+			<br>
+			<br>
+			<a class="btn btn-primary" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+				Посмотреть все
+			</a>
+			<div class="collapse" id="collapseExample">
+				<div class="well">
+					<img src="pic/sc1.jpg" alt="" class="img-responsive" style=" margin-right: 20px;">
+					<img src="pic/sc1.jpg" alt="" class="img-responsive" ">
+				</div>
+			</div>
+			<h3>Системные теребования</h3>
+			<p>
+				Microsoft Windows новее версии XP SP3 <br>
+				Экран с разрешением минимум 800x600
+			</p>
+			<h3>Загрузить</h3>
+			<hr>
+			<div class="row download">
+				<div class="col-lg-3">
+					<img src="pic/icon.png" alt="иконка" style="width: 120px; height: 120px;" class="img-responsive">
+
+					<p>Скачать, готовый <br> к работе, бинарный файл</p>
+
+					<p><button href="#" class="btn btn-primary">Скачать</button></p>
+				</div>
+				<div class="col-lg-3">
+					<img src="pic/icon.png" alt="иконка" style="width: 120px; height: 120px;" class="img-responsive">
+					<p>Скачать исходный код <br> с GitHub</p>
+					<p><button href="#" class="btn btn-default">Скачать</button></p>
+				</div>
+			</div>
+		</section>
+	</div>
+	<footer class="footer">
+		<div class="container text-muted">
+			
+			<p class="text-left col-md-6 col-xs-6">Разработчик: Влад Ванеев <br> Веб-страница: Смышляев Илья</p>
+			<p class="text-right col-md-6 col-xs-6">Программа распространяется <br> под лицензией GNU LGPL</p>
+
+			
+			
+
+		</div>
+	</footer>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script>
+		$('#popover').popover()
+		$('#popover1').popover()
+		$('#popover2').popover()
+		$('#popover3').popover()
+	</script>
+</body>
+</html>
