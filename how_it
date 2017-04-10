@@ -19,7 +19,7 @@
 			<h1>Парсер экзаменационных билетов <br> для Microsoft Word</h1>
 			<ul class="nav nav-pills">
 			<li role="button"><a href="index.html">Главная</a></li>
-			<li role="button"><a href="how_it">Описание работы</a></li>
+			<li role="button"><a href="exam-card.github.io/how_it">Описание работы</a></li>
 			<li role="button"><a href="#">Загрузить</a></li>
 			</ul>
 		</div>
