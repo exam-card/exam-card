@@ -13,7 +13,7 @@ h1 {
 	font-size: 36px;
 	margin-left: 15px;
 }
-h2,h3 {
+h2,h3, h4 {
 	font-size: 24px;
 	margin-top: 30px;
 	margin-bottom: 30px;
@@ -22,6 +22,10 @@ h2,h3 {
 .nav-pills>li>a:focus, .nav-pills>li>a:hover {
 	  text-decoration: none;
     background-color: #eee;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+	color: #337ab7;
+	background-color: #F0F0F0;
 }
 .btn {
 	font-family: 'Ubuntu', sans-serif;
@@ -44,7 +48,8 @@ h2,h3 {
 
 }
 .text-right {
-	padding-right: 0px;
+	padding-left: 0px;
+	padding-right: 30px;
 }
 .footer p {
 	font-size: 16px;
