@@ -26,8 +26,8 @@ h2,h3,h4 {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .nav-pills>li>a:focus, .nav-pills>li>a:hover {
-	  text-decoration: none;
-    background-color: #eee;
+	text-decoration: none;
+	background-color: #eee;
 }
 .nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
 	color: #337ab7;
@@ -51,7 +51,7 @@ h2,h3,h4 {
 .text-muted {
 	padding-left: 0px;
 	padding-right: 0px;
-
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .text-right {
 	padding-left: 0px;
